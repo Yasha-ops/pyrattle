@@ -1,13 +1,16 @@
 [tool.poetry]
 name = "pyrattle"
-version = "0.1.0"
-description = ""
-authors = ["Yassine DAMIRI <ydamiri@freylab.local>"]
+version = "0.2.1"
+description = "Windows Defender wrapper"
+authors = ["Yassine DAMIRI <yassine.damiri@epita.fr>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
 
 [build-system]
 requires = ["poetry-core"]
